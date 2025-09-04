@@ -1,3 +1,4 @@
+import Image from "next/image"
 export function SiteFooter() {
   return (
     <footer className="border-t">
@@ -6,6 +7,16 @@ export function SiteFooter() {
           <div>
             <div className="font-semibold">Qiskit Fall Fest 2025 — Amritapuri</div>
             <div className="text-sm text-muted-foreground">A student-led quantum computing festival.</div>
+          </div>
+          <div className="hidden md:flex rounded-lg">
+                     <Image
+                        src="/IBMQuantum.png"
+                        alt="Qiskit Logo"
+                        width={320} // 80 * 4 (Tailwind h-80 = 20rem = 320px)
+                        height={320}
+                        className="object-cover rounded-lg"
+                        priority
+                      />
           </div>
           <nav className="flex gap-4 text-sm text-muted-foreground">
             <a href="#about" className="hover:text-foreground">
@@ -22,9 +33,7 @@ export function SiteFooter() {
             </a>
           </nav>
         </div>
-        <p className="mt-6 text-xs text-muted-foreground">
-          This website is student-organized and not officially affiliated with IBM unless explicitly stated.
-        </p>
+        
       </div>
     </footer>
   )

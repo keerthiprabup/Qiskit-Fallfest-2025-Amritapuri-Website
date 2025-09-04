@@ -1,10 +1,14 @@
+"use client"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section id="home" className="relative min-h-screen flex ">
+    <section id="home" className="relative min-h-screen flex">
       <div className="mx-auto max-w-6xl px-4 py-16 md:py-24">
-        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+          
+          {/* Left side - text content */}
           <div>
             <h1 className="text-3xl md:text-5xl font-bold tracking-tight text-balance">
               Qiskit Fall Fest 2025
@@ -31,16 +35,19 @@ export function Hero() {
             </p>
           </div>
 
-            {/* <div className="w-65 rounded-lg border bg-white p-2 transform -translate-y-10 translate-x-25">
-              <img
-                src="/100full.png"
-                alt="Students collaborating during a Qiskit workshop"
-                className="w-full h-auto rounded-md"
+          {/* Right side - only visible on md+ screens */}
+          <div className="hidden md:flex h-80 w-80 rounded-lg overflow-hidden">
+             <Image
+                src="/Qiskit_02.svg"
+                alt="Qiskit Logo"
+                width={320} // 80 * 4 (Tailwind h-80 = 20rem = 320px)
+                height={320}
+                className="h-80 w-80 object-cover rounded-lg"
+                priority
               />
-            </div> */}
+          </div>
         </div>
       </div>
     </section>
-
   )
 }
