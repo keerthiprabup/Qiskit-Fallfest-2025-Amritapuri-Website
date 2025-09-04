@@ -17,8 +17,7 @@ export function Hero() {
               </span>
             </h1>
             <p className="mt-4 text-muted-foreground leading-relaxed text-pretty">
-              A student-led celebration of quantum computing—talks, workshops, and
-              challenges built around the Qiskit ecosystem.
+              Celebrating 100 Years of Quantum Theory with Qiskit — A Student-Led Festival of Innovation.
             </p>
             <div className="mt-6 flex flex-col sm:flex-row gap-3" id="register">
               <Button className="bg-blue-600 hover:bg-blue-700" asChild>
