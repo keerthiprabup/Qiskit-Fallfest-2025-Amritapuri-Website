@@ -28,7 +28,7 @@ export function Hero() {
 
             <div className="mt-6 flex flex-col sm:flex-row gap-3" id="register">
               <Button className="bg-blue-600 hover:bg-blue-700" asChild>
-                <a href="#" aria-label="Register for Qiskit Fall Fest 2025">
+                <a href="https://forms.cloud.microsoft/r/Z1vAFZ6jcz" aria-label="Register for Qiskit Fall Fest 2025">
                   Register Now
                 </a>
               </Button>
