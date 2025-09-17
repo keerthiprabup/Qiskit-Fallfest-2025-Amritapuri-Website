@@ -13,6 +13,6 @@ export const faq = [
   },
   {
     q: "Will certificates be provided?",
-    a: "Participation certificates may be provided; details will be shared closer to the event.",
+    a: "Participation certificates may be provided, details will be shared closer to the event.",
   },
 ]

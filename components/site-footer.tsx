@@ -25,6 +25,12 @@ export function SiteFooter() {
             <a href="#event" className="hover:text-foreground">
               Event
             </a>
+            <a href="#speakers" className="hover:text-foreground">
+              Speakers
+            </a>
+            <a href="#sponsors" className="hover:text-foreground">
+              Sponsors
+            </a>
             <a href="#team" className="hover:text-foreground">
               Team
             </a>

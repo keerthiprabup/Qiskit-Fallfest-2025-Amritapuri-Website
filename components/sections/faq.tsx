@@ -9,7 +9,7 @@ const faqs = [
   { q: "Do I need a laptop?", a: "Yes—please bring your laptop and charger for hands‑on labs." },
   {
     q: "Will certificates be provided?",
-    a: "Participation certificates may be provided; details will be shared closer to the event.",
+    a: "Participation certificates will be provided, details will be shared closer to the event.",
   },
 ]
 

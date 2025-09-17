@@ -11,8 +11,10 @@ export function SiteHeader() {
   const nav = [
     { href: "#about", label: "About" },
     { href: "#event", label: "Event" },
+    { href: "#speakers", label: "Speaker"},
+    { href: "#sponsors", label: "Sponsors"},
     { href: "#team", label: "Team" },
-    { href: "#faq", label: "FAQ" },
+    { href: "#faq", label: "FAQ" }
   ]
 
   return (
@@ -47,7 +49,7 @@ export function SiteHeader() {
             </a>
           ))}
           <Button asChild className="bg-blue-600 hover:bg-blue-700">
-            <a href="#register">Register</a>
+            <a href="https://forms.cloud.microsoft/r/Z1vAFZ6jcz" target="_blank" rel="noopener noreferrer">Register</a>
           </Button>
         </nav>
 

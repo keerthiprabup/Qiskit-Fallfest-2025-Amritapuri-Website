@@ -7,6 +7,7 @@ export type Speaker = {
 
 export const speakers: Speaker[] = [
   { name: "To Be Announced", title: "Keynote Speaker", affiliation: "TBA" },
-  { name: "Student Mentor", title: "Qiskit Advocate", affiliation: "TBA" },
-  { name: "Industry Guest", title: "Quantum Researcher", affiliation: "TBA" },
+  { name: "To Be Announced", title: "Qiskit Advocate", affiliation: "TBA" },
+  { name: "To Be Announced", title: "Quantum Researcher", affiliation: "TBA" },
+  { name: "To Be Announced", title: "Quantum Researcher", affiliation: "TBA" }
 ]
