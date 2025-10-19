@@ -12,7 +12,7 @@ export function SiteHeader() {
     { href: "#about", label: "About" },
     { href: "#event", label: "Event" },
     { href: "#speakers", label: "Speaker"},
-    { href: "#sponsors", label: "Sponsors"},
+    // { href: "#sponsors", label: "Sponsors"},
     { href: "#team", label: "Team" },
     { href: "#faq", label: "FAQ" }
   ]
@@ -50,6 +50,9 @@ export function SiteHeader() {
           ))}
           <Button asChild className="bg-blue-600 hover:bg-blue-700">
             <a href="https://forms.cloud.microsoft/r/Z1vAFZ6jcz" target="_blank" rel="noopener noreferrer">Register</a>
+          </Button>
+          <Button asChild className="bg-orange-600 hover:bg-orange-400">
+            <a href="https://forms.cloud.microsoft/r/vmwnwK1Ahi/"  target="_blank" rel="noopener noreferrer"> VolunteerUs</a>
           </Button>
         </nav>
 

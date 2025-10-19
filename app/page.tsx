@@ -31,7 +31,7 @@ export default function Page() {
           <Speakers />
           <Venue />
           <Team />
-          <Sponsors />
+          {/* <Sponsors /> */}
           <FAQ />
         </main>
         <SiteFooter />

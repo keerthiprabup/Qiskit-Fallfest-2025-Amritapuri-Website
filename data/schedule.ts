@@ -11,12 +11,12 @@ export type Day = {
 }
 
 export const schedule: Day[] = [
-  {
-    title: "Hackathon",
-    date: "1 Nov, 2025",
-    sessions: [{name: "Mode", location: "Online", time: "15 Day Hackathon"}
-    ]
-  },
+  // {
+  //   title: "Hackathon",
+  //   date: "1 Nov, 2025",
+  //   sessions: [{name: "Mode", location: "Online", time: "15 Day Hackathon"}
+  //   ]
+  // },
   {
     title: "Day 1 — Kickoff & Fundamentals",
     date: "15 Nov, 2025",

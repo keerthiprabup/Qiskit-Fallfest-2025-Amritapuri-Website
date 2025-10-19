@@ -5,7 +5,7 @@ export function About() {
   const pillars = [
     { icon: BookOpen, title: "Learn", text: "Intro to quantum computing, Qiskit basics, and guided labs." },
     { icon: Terminal, title: "Build", text: "Hands-on coding sessions using the Qiskit SDK and tools." },
-    { icon: Trophy, title: "Compete", text: "Mini challenges and project sprints with prizes." },
+    { icon: Trophy, title: "Compete", text: "Mini challenges and project sprints" },
   ]
 
   return (
