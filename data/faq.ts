@@ -12,6 +12,10 @@ export const faq = [
     a: "Yes, please bring your laptop and charger for hands-on Qiskit workshops.",
   },
   {
+    q: "Is Accomodation Provided?",
+    a: "Accommodation will not be provided. However, we’ll be happy to assist you in finding nearby convenient places and hotels.",
+  },
+  {
     q: "Will certificates be provided?",
     a: "Participation certificates may be provided, details will be shared closer to the event.",
   },

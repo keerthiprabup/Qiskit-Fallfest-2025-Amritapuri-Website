@@ -18,22 +18,25 @@ export const schedule: Day[] = [
   //   ]
   // },
   {
-    title: "Day 1 — Kickoff & Fundamentals",
+    title: "Day 1 — Inauguration & Speaker Sessions",
     date: "15 Nov, 2025",
     sessions: [
-      { time: "10:00–10:30", name: "TBA", location: "TBA" },
-      { time: "10:30–12:00", name: "TBA", location: "TBA" },
-      { time: "13:30–15:30", name: "TBA", location: "TBA" },
-      { time: "16:00–17:00", name: "TBA", location: "TBA" },
+      { time: "9:00–10:00", name: "Inauguration", location: "TBA" },
+      { time: "10:00–11:30", name: "TBA", location: "TBA" },
+      // { time: "11:30–11:45", name: "Tea Break", location: "TBA" },
+      { time: "11:45–13:00", name: "TBA", location: "TBA" },
+      { time: "13:00–13:40", name: "Lunch Break", location: "TBA" },
+      { time: "13:40–16:00", name: "TBA", location: "TBA" }
     ],
   },
   {
     title: "Day 2 — Workshop - Qiskit 101",
     date: "16 Nov, 2025",
     sessions: [
-      { time: "10:00–11:00", name: "TBA", location: "TBA" },
-      { time: "11:30–13:00", name: "TBA", location: "TBA" },
-      { time: "14:30–17:00", name: "TBA", location: "TBA" },
+      { time: "9:00–12:30", name: "Workshop", location: "TBA" },
+      // { time: "11:30–11:45", name: "Tea Break", location: "TBA" },
+      { time: "12:30–13:10", name: "Lunch Break", location: "TBA" },
+      { time: "13:10–17:00", name: "Workshop Activity", location: "TBA" }
     ],
   },
 ]

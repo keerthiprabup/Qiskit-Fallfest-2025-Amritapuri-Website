@@ -5,7 +5,7 @@ export function About() {
   const pillars = [
     { icon: BookOpen, title: "Learn", text: "Intro to quantum computing, Qiskit basics, and guided labs." },
     { icon: Terminal, title: "Build", text: "Hands-on coding sessions using the Qiskit SDK and tools." },
-    { icon: Trophy, title: "Compete", text: "Mini challenges and project sprints" },
+    { icon: Trophy, title: "Compete", text: "Mini challenges and activities" },
   ]
 
   return (
@@ -17,8 +17,7 @@ export function About() {
             Student‑led quantum festival powered by Qiskit
           </h2>
           <p className="mt-3 text-muted-foreground leading-relaxed">
-            Organized by students at Amrita Vishwa Vidyapeetham, Amritapuri Campus. Join workshops, speaker sessions,
-            and project sprints to explore quantum computing with Qiskit.
+            Organized by students at Amrita Vishwa Vidyapeetham, Amritapuri Campus. Join workshops and speaker sessions to explore quantum computing with Qiskit through interactive learning activities.
           </p>
         </div>
 
