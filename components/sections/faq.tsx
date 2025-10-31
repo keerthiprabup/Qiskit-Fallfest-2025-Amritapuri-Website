@@ -8,6 +8,10 @@ const faqs = [
   },
   { q: "Do I need a laptop?", a: "Yes—please bring your laptop and charger for hands‑on labs." },
   {
+    q: "Is Accomodation Provided?",
+    a: "Accommodation will not be provided. However, we’ll be happy to assist you in finding nearby convenient places and hotels.",
+  },
+  {
     q: "Will certificates be provided?",
     a: "Participation certificates will be provided, details will be shared closer to the event.",
   },
