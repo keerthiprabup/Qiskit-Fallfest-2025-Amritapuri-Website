@@ -30,7 +30,7 @@ export function EventSection() {
                     <div>
                       <div className="font-medium">{s.name}</div>
                       <div className="text-sm text-muted-foreground">
-                        {s.time} • {s.location}
+                        {s.time} • {s.speaker}
                       </div>
                     </div>
                   </div>
