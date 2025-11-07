@@ -29,10 +29,11 @@ export default function Page() {
           <About />
           <EventSection />
           <Speakers />
-          <Venue />
+          
           <Team />
           {/* <Sponsors /> */}
           <FAQ />
+          <Venue />
         </main>
         <SiteFooter />
       </div>

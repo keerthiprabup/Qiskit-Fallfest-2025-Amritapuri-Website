@@ -1,4 +1,4 @@
-import { Card, CardContent, CardHeader } from "@/components/ui/card"
+import { Card, CardContent } from "@/components/ui/card"
 import { speakers } from "@/data/speakers"
 
 export function Speakers() {
@@ -9,20 +9,26 @@ export function Speakers() {
         <p className="mt-2 text-muted-foreground max-w-2xl">
           Industry professionals, researchers, and student leaders guiding sessions and reviews.
         </p>
-        <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
-          {speakers.map((sp) => (
-            <Card key={sp.name} className="overflow-hidden">
-              <CardHeader className="p-0">
-                <img
-                  src={sp.image || "/placeholder.svg?height=240&width=400&query=speaker%20portrait"}
-                  alt={sp.name}
-                  className="w-full h-40 object-cover"
-                />
-              </CardHeader>
-              <CardContent className="p-4">
-                <div className="font-medium">{sp.name}</div>
-                <div className="text-sm text-muted-foreground">{sp.title}</div>
-                {sp.affiliation && <div className="text-sm text-muted-foreground">{sp.affiliation}</div>}
+
+        <div className="mt-12 grid sm:grid-cols-2 md:grid-cols-3 gap-10 place-items-center">
+          {speakers.map((sp, index) => (
+            <Card
+              key={`${sp.name}-${index}`}
+              className="flex flex-col items-center shadow-sm border-none bg-transparent"
+            >
+              <img
+                src={sp.image || "/placeholder.svg?height=220&width=220&query=speaker%20portrait"}
+                alt={sp.name}
+                className="w-40 h-40 rounded-full object-cover border"
+              />
+              <CardContent className="text-center mt-4 p-0">
+                <div className="font-medium text-lg">{sp.name}</div>
+                {sp.title && (
+                  <div className="text-sm text-muted-foreground">{sp.title}</div>
+                )}
+                {sp.affiliation && (
+                  <div className="text-sm text-muted-foreground">{sp.affiliation}</div>
+                )}
               </CardContent>
             </Card>
           ))}
