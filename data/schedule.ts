@@ -26,11 +26,11 @@ export const schedule: Day[] = [
       // { time: "11:30–11:45", name: "Tea Break", speaker: "TBA" },
       { time: "9:30–10:30", name: "Historical Overview and Current State of Quantum Computing", speaker: "Dr. Anupama Ray" },
       { time: "10:30–10:50", name: "Tea Break", speaker: "" },
-      { time: "10:50–12:30", name: "TBA", speaker: "TBA" },
+      { time: "10:50–12:30", name: "Quantum Circuits and Algorithms", speaker: "Dr. Vinayak Jagadish" },
       { time: "12:30–13:20", name: "Lunch Break", speaker: "" },
       { time: "13:20–14:50", name: "Quantum entanglement, its realisations and use in quantum information", speaker: "Dr. Mrittunjoy Guha Majumdar" },
       { time: "14:50–15:10", name: "Tea Break", speaker: "" },
-      { time: "15:10–16:00", name: "Installation & Prerequisites for Day 2", speaker: "TBA" }
+      { time: "15:10–16:00", name: "Installation & Prerequisites for Day 2", speaker: "" }
       
     ],
   },
